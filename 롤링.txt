@@ -1,0 +1,101 @@
+<img src="/img/sub_logo.png" alt="footer_logo" width='100%' height='100%' />
+
+
+<img src="/img/pay.jpg" alt="" />
+
+
+롤링
+
+<div className="rolling">
+        <h2>COLLECTION</h2>
+        <Row className='box'>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection1.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection3.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection4.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection2.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection5.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection7.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection6.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection8.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection9.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection10.jpg" alt="collection" /></div>
+          </Col>
+          <Col sm={4} md={4} xxl={3}>
+            <div><img src="/img/collection11.jpg" alt="collection" /></div>
+          </Col>
+        </Row>
+      </div>
+
+
+
+.rolling{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    @include sub_Color;
+    h2{
+        @include title_txt;
+        text-align: left;
+    }
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col-xxl-3{
+    // width: 300px;
+    height: 640px;
+    background: rgb(207, 188, 188);
+    margin: 10px;
+    animation: 10s linear infinite normal none running
+    infiniteAnimation1;
+}
+.col-xxl-3 div{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    animation: 10s linear infinite infiniteAnimation2;
+}
+@keyframes infiniteAnimation1 {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    50.1% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes infiniteAnimation2 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}

@@ -1,0 +1,81 @@
+주제 : 위글위글
+
+공식사이트
+: https://wiggle-wiggle.com/
+
+-메인-
+
+슬라이더 부분
+: https://www.lelabofragrances.co.kr/
+
+아울렛 네모 칸 부분
+: https://preview.themeforest.net/item/ecolife-multipurpose-ecommerce-html-template/full_screen_preview/27418907?
+_ga=2.234899529.914488396.1658728789-1128965468.1658728789&_gac=1.208849446.1658730697.EAIaIQobChMIi8nuq
+7WT-QIV1GSLCh2JqArxEAMYAyAAEgKPbvD_BwE
+
+카테고리 효과 부분
+: https://www.benefitcosmetics.com/ko-kr
+
+흐르는배너
+: https://myhappyman.tistory.com/312
+: https://ranidiant.tistory.com/entry/swiper-js-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B6%80%EB%93%9C%EB%9F%BD%EA%B2%8C-%ED%9D%90%EB%A5%B4%EB%8A%94-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
+이미지참고
+: https://www.musinsa.com/brands/wigglewiggle/lookbooks
+: https://content.29cm.co.kr/showcase/1016
+
+전체적인 템블릿 참고사이트
+: https://beshop-demo.vercel.app/?storefront=envato-elements
+
+유튜브
+
+: https://www.youtube.com/@wigglewiggle.official
+
+기능 참고자료
+: https://se0304.github.io/tamburins/main
+: https://lej99.github.io/project_5/
+: https://nuunnunn.github.io/project_6/
+
+-서브-
+
+상품이미지상세자료
+: https://thdudws.github.io/project_05/detail/2
+
+: https://nuunnunn.github.io/project_6/detail/0
+
+
+
+let data = [
+    {
+        id: 0,
+        title: "차량용 방향제",
+        imgUrl: "/img/newitem1.jpg",
+        price: 29, 800
+    },
+    {
+        id: 1,
+        title: "하드 커버 스프링 노트 - Spring Garden",
+        imgUrl: "/img/newitem2.jpg",
+        price: 14, 800
+    },
+    {
+        id: 2,
+        title: "[토앤토X위글위글] 플립플랍 기획세트 - NAVY",
+        imgUrl: "/img/newitem3.jpg",
+        price: 63,200
+    }
+]
+
+export default data;
+
+flex-디렉션 : 로우 리버스
+플렉스 앱 : 앱
+
+
+<div className="Event_box">
+        <Row xs={1} md={2} className='event'>
+        <Col className='event_box'>1 of 3</Col>
+        <Col className='event_box2'><img src="/img/event2.jpg" alt="event2" /></Col>
+        <Col className='outlet_box'>3 of 3</Col>
+      </Row>
+      </div>
