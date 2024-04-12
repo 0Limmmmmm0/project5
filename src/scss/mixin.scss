@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@mixin sub_Color{
+    background: #db0b15;
+}
+@mixin sub_box{
+    max-width: 1692px;
+    margin: 0 auto;
+}
+@mixin Full_box{
+    width: 100%;
+    // background: palegoldenrod;
+}
+@mixin header_style{
+    max-width: 100%;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+@mixin font_English{
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+/*중제목*/
+@mixin title_txt{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: bold;
+}
+/*소제목*/
+@mixin title_sub_txt{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/*상품 이름*/
+@mixin product_main_txt{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+/*가격 등*/
+@mixin product_sub_txt{
+    font-size: 1.2rem;
+    text-align: center;
+}
+/*카테고리*/
+@mixin ka_txt{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+/*Event 중제목*/
+@mixin Event_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+/*Event 설명*/
+@mixin Event_sub{
+    font-size: 1.4rem;
+    line-height: 50px;
+    padding-top: 20px;
+    // font-weight: bold;
+}

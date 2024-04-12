@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import 'mixin';
+
+.swiper {
+    margin-top: 10%;
+    background: palegreen;
+  }
+  
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+  
+  .swiper-slide_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b12323;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .swiper-slide:nth-child(odd) {
+    background-color: pink;
+  }
+  
+  .swiper-slide:nth-child(even) {
+    background-color: #fff;
+  }

@@ -1,0 +1,437 @@
+@charset "UTF-8";
+/*중제목*/
+/*소제목*/
+/*상품 이름*/
+/*가격 등*/
+/*카테고리*/
+/*Event 중제목*/
+/*Event 설명*/
+/*slider*/
+.slider {
+  height: 1000px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.slider img {
+  width: 100%;
+  height: 1000px;
+}
+
+.slider .row {
+  position: relative;
+}
+
+.Title_Text_Box {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+.Title_Text_Box .Text_cover {
+  width: 75%;
+  height: 100%;
+  background: red;
+  display: flex;
+}
+.Title_Text_Box .Text_cover .Text_box {
+  background: palegoldenrod;
+  width: 30%;
+  margin: 1%;
+  text-align: left;
+}
+.Title_Text_Box .Text_cover .Text_box b {
+  font-size: 1.7rem;
+}
+
+/*New item*/
+.New {
+  max-width: 1692px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.col-xl-4 {
+  height: auto;
+  padding-right: 3%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.col-xl-4 div {
+  width: 100%;
+  height: auto;
+}
+
+.txtbox {
+  margin-top: 40px;
+}
+.txtbox h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sub_txtbox {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 80px;
+}
+.sub_txtbox p {
+  text-decoration: line-through;
+  color: gray;
+}
+.sub_txtbox span {
+  font-weight: bold;
+  color: red;
+}
+
+.btn {
+  margin-bottom: 30px;
+  border: none;
+}
+.btn button {
+  width: 150px;
+  height: 45px;
+  margin: 15px;
+  background-color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*Kategorie*/
+.Kategorie {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+.Kategorie h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.Kategorie button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background: black;
+  border: none;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+.Kategorie button p {
+  color: white;
+  font-size: 0.9rem;
+  line-height: 30px;
+  position: relative;
+  bottom: 3px;
+  left: 1px;
+}
+
+.col-sm {
+  height: auto;
+  padding: 1%;
+}
+
+.col-sm div {
+  height: 350px;
+  position: relative;
+}
+
+.img {
+  z-index: 10;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  padding: 2%;
+}
+
+.img:hover .hover_img {
+  animation: rotate_image 1.5s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.hover_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  padding: 2%;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Md_pick*/
+.md_pick h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+.md_pick p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*Slick*/
+/*md_pick*/
+.Slick1 {
+  max-width: 1692px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*prev, next*/
+.slick-prev {
+  left: -60px !important;
+  top: 35% !important;
+}
+
+.slick-prev:before {
+  content: "◀" !important;
+}
+
+.slick-prev:before {
+  color: black !important;
+  font-size: 3rem !important;
+}
+
+.slick-next {
+  right: -35px !important;
+  top: 35% !important;
+}
+
+.slick-next:before {
+  content: "▶" !important;
+}
+
+.slick-next:before {
+  color: black !important;
+  font-size: 3rem !important;
+}
+
+/*Zip*/
+.Slick2 {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.background {
+  position: relative;
+  max-width: 100%;
+  height: 56vw;
+}
+
+.up {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 4px;
+  width: 100%;
+  height: 99.3%;
+}
+.up .up_cover {
+  width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/*Zip-TextBox1*/
+.up_txt {
+  margin-top: 100px;
+}
+.up_txt h2 {
+  font-size: 5.5rem;
+  line-height: 200px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  animation: animate 2s infinite;
+}
+.up_txt h6 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.up_txt button {
+  width: 200px;
+  margin: 3%;
+  height: 55px;
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateZ(-3deg);
+  }
+  50% {
+    transform: rotateZ(3deg);
+  }
+  100% {
+    transform: rotateZ(-3deg);
+  }
+}
+/*Zip-TextBox2*/
+.up_txt2 h2 {
+  font-size: 4.5rem;
+  line-height: 110px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  background: linear-gradient(to right top, #ff8800, #fffaad);
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.1px rgb(54, 54, 54);
+}
+.up_txt2 h5 {
+  font-weight: bold;
+  font-size: 2.1rem;
+  line-height: 60px;
+}
+.up_txt2 p {
+  font-size: 1.6rem;
+}
+
+/*Zip-TextBox3*/
+.up_cover2 {
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 300px;
+  height: 60%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.up_txt3 {
+  margin-top: 100px;
+}
+.up_txt3 h2 {
+  font-size: 5.5rem;
+  line-height: 200px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+}
+.up_txt3 h6 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.up_txt3 button {
+  width: 200px;
+  margin: 7%;
+  height: 55px;
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+
+/*Zip-동영상*/
+.background iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.Slick3 {
+  width: 100%;
+  height: auto;
+}
+
+.Slick3 div {
+  height: 100%;
+}
+
+.Slick3 div .box {
+  background: red;
+  margin: 20px;
+  height: 600px;
+}
+
+/*eventbox*/
+.eventBox {
+  max-width: 1692px;
+  margin: 0 auto;
+  height: 913px;
+}
+
+.event_cover {
+  height: 100%;
+  display: flex;
+}
+
+.event {
+  width: 50%;
+  height: 100%;
+  background-image: url("/public/img/event.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.event .tt_box {
+  width: 70%;
+  height: 35%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1%;
+  text-align: left;
+}
+.event .tt_box h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.event .tt_box p {
+  font-size: 1.4rem;
+  line-height: 50px;
+  padding-top: 20px;
+}
+
+.event::before {
+  content: "";
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #000;
+}
+
+.event_group {
+  width: 50%;
+}
+.event_group .col-sm-8:nth-of-type(1) {
+  height: 30%;
+  width: 100%;
+  background: lavenderblush;
+}
+.event_group .col-sm-8:nth-of-type(2) {
+  height: 69%;
+  width: 100%;
+  background: rgb(214, 15, 81);
+  margin-top: 10px;
+}
